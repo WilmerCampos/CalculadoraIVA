@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clase JS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-6">
+				<h1>Calculadora IVA</h1>
+				<form>
+					<div class="form-group">
+						<label>Ingrese el precio del producto: </label>
+						<input class="form-control" type="number" name="precio" id="precio">
+					</div>
+					<input class="btn btn-primary" type="button" name="calcular" value="0" onclick="calcular_iva()">
+				</form>
+				<h2>El IVA a pagar es: <span id="resultado"></span></h2>
+			</div>
+		</div>
+	</div>
+
+
+	<!--
+	<h1 class="rojo">Curso Full Stack</h1>
+
+	<p class="rojo" onclick="cambiar_mensaje()">Unitec</p>
+	<p id="fecha">26-09-2018</p>
+	-->
+
+	<script src="scripts/app.js"></script>
+</body>
+</html>
